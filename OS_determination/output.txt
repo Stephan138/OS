@@ -1,0 +1,13 @@
+Non-deterministic:
+A x S
+B b A
+B b B
+H a A
+H b B
+
+Deterministic:
+      a     b     x     
+A                 S     
+AB          AB    S     
+B           AB          
+H     A     B           
